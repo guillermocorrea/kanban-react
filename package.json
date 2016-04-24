@@ -1,0 +1,39 @@
+{
+  "name": "kanban-react",
+  "version": "1.0.0",
+  "description": "webpack+react kanban board",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillermocorrea/kanban-react.git"
+  },
+  "author": "Luis Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillermocorrea/kanban-react/issues"
+  },
+  "homepage": "https://github.com/guillermocorrea/kanban-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-survivejs-kanban": "^0.3.3",
+    "css-loader": "^0.23.1",
+    "npm-install-webpack-plugin": "^3.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.12.0"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
